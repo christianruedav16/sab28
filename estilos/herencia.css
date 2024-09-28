@@ -1,0 +1,31 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+/*color:blue;*/
+}
+
+
+body{
+  color: red;
+}
+
+section{
+  color:blue
+}
+
+h1{
+  color:violet
+}
+
+#color{
+  color: black;
+}
+
+.color{
+  color: aqua;
+}
+
+h1.color{
+  color: brown;
+}
