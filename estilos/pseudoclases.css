@@ -1,0 +1,73 @@
+*{
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+*::selection{
+  background-color: rgb(229, 255, 0);
+
+}
+
+p::before{
+content:"" ;
+width: 100%;
+height: 4px;
+background-color: red;
+display: block;
+
+}
+
+p::after{
+content: "";
+width: 100%;
+height: 4px;
+background-color: red;
+display: block;
+
+
+
+}
+
+
+
+.enlace{
+  display: block;
+  background-color: tomato;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+  border-bottom: solid 3px black;
+  transition:  0.5s;
+}
+
+
+
+p{
+  width:70%;
+  margin: 0 auto;
+  border: solid 4px red;
+}
+
+.enlace:link{
+
+  background-color: steelblue;
+  color: black;
+
+}
+
+
+.enlace:visited{
+
+  background-color: aquamarine;
+}
+
+.enlace:hover{
+  background-color: black;
+}
+
+
+
