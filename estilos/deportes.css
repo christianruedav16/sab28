@@ -1,0 +1,16 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    color: red;
+}
+
+.p{
+    display: block;
+    background-color: yellow;
+    text-align: justify;
+    text-decoration: double;
+    margin-bottom: 20px;
+    border-bottom: solid 10px aqua;
+
+}
