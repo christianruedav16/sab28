@@ -116,6 +116,11 @@ section{
   width: 500px;
 }
 
+.logo4{
+height: 300px;
+width: 400px;
+}
+
 .contenedor_textos {
 
   order: 0;
@@ -205,3 +210,19 @@ border-radius: 10px;/* para darle borde a los objetos*/
   margin-bottom: 22px;
 }
 
+.register{
+  width: 400px;
+  background-color: gray;
+  padding: 50px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.register h3{
+  font-size: 30px;
+  margin-bottom: 20px;
+  
+}
