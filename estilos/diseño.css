@@ -52,7 +52,9 @@ section{
 }
 
 .h-100{
-  height: calc(100vh - var(--alto_nav));
+  max-width: 1000px;
+  min-width: 350px;
+  /*height: calc(100vh - var(--alto_nav));*/
 }
 
 .nav {
@@ -145,7 +147,6 @@ width: 400px;
   margin-top: 20pxpx;
   font-weight: 100;
   font-size: 24px;
-  min-height: 150px;
 }
 
 .btn {
@@ -224,27 +225,12 @@ border-radius: 10px;/* para darle borde a los objetos*/
 
 
 img{
+  display: flex;
   width: 100%;
 
 }
 
-.row{
-  display: flex;
-  padding: 5px;
-  justify-content: space-between;
-}
 
-.colum{
-  flex: 25%;
-  padding: 5px;
-
-
-}
-
-.colum img{
-  margin-top: 5px;
-
-}
 
 
 /*------------------- REGISTROS------------------*/
