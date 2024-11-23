@@ -51,6 +51,8 @@ section{
   margin-bottom: 30px;
 }
 
+
+/* ----- DEFINO EL TAMAÑO QUE OCUPA EN MI PAGINA WEB --------*/
 .h-100{
   max-width: 1000px;
   min-width: 350px;
@@ -76,6 +78,7 @@ section{
 }
 
 .logo {
+  margin-left: 150px;
   height: 90px;
   width: 100px;
 }
@@ -151,6 +154,8 @@ width: 400px;
 
 .btn {
   display: inline-block;
+  margin-top: 80px;
+  margin-bottom: 40px;
   background-color: var(--color_primario);
   color: var(--color_secundario);
   font-weight: 700;
@@ -223,12 +228,60 @@ border-radius: 10px;/* para darle borde a los objetos*/
 /* --------------------------GALERIA------------*/
 
 
+.titulo{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
-img{
+
+
+.row1{
+
   display: flex;
-  width: 100%;
+  margin-top: 100px;
+  margin-left: 250px;
+  width: 250px;
+  height: 150px;
+
 
 }
+
+.row2{
+
+  display: flex;
+  margin-top: 100px;
+  margin-left: 250px;
+  width: 250px;
+  height: 150px;
+
+}
+
+
+.img-1{
+  margin-right: 35px;
+}
+
+.img-2{
+  margin-right: 35px;
+}
+
+.img-3{
+  margin-right: 35px;
+}
+
+.img-4{
+  margin-right: 25px;
+}
+
+.img-5{
+  margin-right: 25px;
+}
+
+.img-6{
+  margin-right: 25px;
+}
+
 
 
 
