@@ -74,7 +74,7 @@ height: calc(100vh - var(--alto_nav));
 .logo {
   margin-left: 250px;
   height: 90px;
-  width: 100px;
+  width: 200px;
 }
 
 .nav__link1{
@@ -96,19 +96,23 @@ color: rgb(207, 137, 207);
 
 
 .imagenesprincipales-contenedor1{
-  justify-content: space-between;
+  width: 1000%;
+  height: 100%;
 }
 
 .huellas1{
-  width: 400px;
-  flex-basis: 30%;
-  margin-left: 100px;
+  padding: auto;
+  margin: auto;
+  z-index: 0;
+  width: 300px;
+  margin-bottom: 100px;
 
 }
 
 .huellas2{
-  flex-basis: 20%;
-  margin-right: 100px;
+  padding: 10px;
+  z-index: 1;
+  margin-left: -150px;
 
 }
 
@@ -184,6 +188,7 @@ color: rgb(168, 88, 168);
   justify-content: space-between;
   margin-bottom: 70px;
   margin-top: 200px;
+  
 }
 
 .l1{
@@ -213,10 +218,36 @@ color: rgb(168, 88, 168);
 
 }
 
+.pet1{
+  color: black;
+}
+
+.pet2{
+  color: black;
+}
+
+.pet3{
+  color: black;
+}
 
 
+/*---------------------------services*-----------------------------*/
+
+.titulo-services{
+  font-size: 25px;
+  color: grey;
+  text-align: center;
+}
 
 
+.services1{
+font-size: 40px;
+color: black;
+text-align: center;
+}
 
-
+.contenedorservicios{
+  justify-content: space-between;
+  width: 200px;
+}
 
