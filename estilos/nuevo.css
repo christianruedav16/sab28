@@ -1,0 +1,222 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color_primario:white;
+  --color_secundario: black;
+  --tamanio_fuente: 18px;
+  --maximo_ancho: 1200px;
+  --color_blanco: #c2c2c2;
+  --alto_nav:70px;
+}
+
+::selection {
+  background-color: var(--color_primario);
+  color: var(--color_secundario);
+}
+
+body {
+ 
+  font-size: var(--tamanio_fuente);
+  background-color: #ada7cd;
+  color: var(--color_blanco);
+  margin-top: 0;
+}
+
+header {
+  background-color: var(--color_primario);
+  color: var(--color_secundario);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+
+.html{
+
+  scroll-behavior: smooth;
+}
+
+.contenedor1 {
+  width: 100%;
+  max-width: var(--maximo_ancho);
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.h-100{
+height: calc(100vh - var(--alto_nav));
+}
+
+.nav__contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.listaprincipal {
+  height: var(--alto_nav);
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.principal{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 250px;
+  height: 90px;
+  width: 100px;
+}
+
+.nav__link1{
+color: rgb(207, 137, 207);
+}
+
+.nav__link {
+  color: var(--color_secundario);
+  font-weight: bold;
+}
+
+.contenedor_textos{
+  order: 2;
+  flex-basis: 70%;
+}
+
+
+/*--------------------WELCOME------------------------------*/
+
+
+.imagenesprincipales-contenedor1{
+  justify-content: space-between;
+}
+
+.huellas1{
+  width: 400px;
+  flex-basis: 30%;
+  margin-left: 100px;
+
+}
+
+.huellas2{
+  flex-basis: 20%;
+  margin-right: 100px;
+
+}
+
+
+.titulo{                                /*trabajo en el titulo welcome*/
+margin-top: 0px;
+margin-bottom: 90px;
+background-color: grey;
+color:rgb(150, 52, 150);
+border-radius: 20px;
+text-align: center;
+font-size: 40px;
+width: 200px;
+
+
+}
+
+.titulo1{                            /*trabajo en el titulo pet */
+font-size: 70px;
+margin: 10px 20px ;
+text-align: center;
+color: rgb(169, 56, 169);
+
+
+
+}
+
+.titulo2{                            /*trabajo en el tetilo pet doctor */
+font-size: 90px;
+text-align: center;
+color: rgb(169, 75, 169);
+}
+
+.parrafo1{                           /*trabajo en el texto del inicio*/
+text-align: center;
+font-size: 20px;
+color: rgb(168, 88, 168);
+}
+
+
+
+
+.btn {
+  display: inline-block;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  background-color: var(--color_primario);
+  color: var(--color_secundario);
+  font-weight: 700;
+  padding: 16px 30px;
+  border-radius: 10px;
+}
+
+
+.titulo3{
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.titulo4{
+
+  font-size: 50px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+  color: black;
+}
+
+
+.papadelogos{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+  margin-top: 200px;
+}
+
+.l1{
+
+  width:200px ;
+  height:150px ;
+  margin-right: 25px;
+
+
+}
+
+.l2{
+
+    width:200px ;
+    height:150px ;
+    margin-left: 25px;
+
+
+
+}
+
+.l3{
+
+    width:200px ;
+    height:150px ;
+
+
+}
+
+
+
+
+
+
+
+

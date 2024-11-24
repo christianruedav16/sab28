@@ -239,6 +239,8 @@ border-radius: 10px;/* para darle borde a los objetos*/
 .row1{
 
   display: flex;
+  justify-content: center;
+  justify-content: space-between;
   margin-top: 100px;
   margin-left: 250px;
   width: 250px;
@@ -250,6 +252,8 @@ border-radius: 10px;/* para darle borde a los objetos*/
 .row2{
 
   display: flex;
+  justify-content: center;
+  justify-content: space-between;
   margin-top: 100px;
   margin-left: 250px;
   width: 250px;
@@ -257,29 +261,22 @@ border-radius: 10px;/* para darle borde a los objetos*/
 
 }
 
-
-.img-1{
-  margin-right: 35px;
+.img-1{tijustify-content: center;
 }
 
-.img-2{
-  margin-right: 35px;
+.img-2{tijustify-content: center;
 }
 
-.img-3{
-  margin-right: 35px;
+.img-3{tijustify-content: center;
 }
 
-.img-4{
-  margin-right: 25px;
+.img-4{tijustify-content: center;
 }
 
-.img-5{
-  margin-right: 25px;
+.img-5{tijustify-content: center;
 }
 
-.img-6{
-  margin-right: 25px;
+.img-6{tijustify-content: center;
 }
 
 
